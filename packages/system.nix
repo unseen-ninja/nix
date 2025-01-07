@@ -1,0 +1,40 @@
+{ pkgs, ... }: {
+
+  # Allow proprietary software
+  nixpkgs.config.allowUnfree = true;
+
+  # System Packages
+  environment.systemPackages = with pkgs; [
+    catppuccin-whiskers
+    ffmpeg-headless
+    fish
+    git
+    gnugrep
+    gnupg
+    gum
+    kitty
+    lsd
+    mcrcon
+    mkalias
+    obsidian
+    tmux
+    pnpm
+    prismlauncher
+    raycast
+    starship
+    telegram-desktop
+    unixtools.ping
+    vesktop
+    vscode
+    wget
+    yt-dlp-light
+  ];
+
+  # Fonts
+  fonts.packages = with pkgs; [
+    fira-code
+    jost
+    victor-mono
+  ];
+
+}
