@@ -18,6 +18,7 @@
     mkalias
     obsidian
     tmux
+    pfetch-rs
     pnpm
     prismlauncher
     raycast

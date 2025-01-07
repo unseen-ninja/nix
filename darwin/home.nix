@@ -25,6 +25,7 @@
     ../modules/home-manager/aerospace.nix
     ../modules/home-manager/git.nix
     ../modules/home-manager/kitty.nix
+    ../modules/home-manager/pfetch.nix
     ../modules/home-manager/shell # imports all shell stuff
     ../modules/home-manager/starship.nix
     ../modules/home-manager/tmux.nix
