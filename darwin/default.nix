@@ -23,7 +23,7 @@ in
         nix-homebrew = {
           enable = true;
           enableRosetta = true;
-          user = "ag";
+          user = "${user}";
         };
       }
       # /Homebrew
