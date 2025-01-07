@@ -1,5 +1,5 @@
 {
-  description = "Lemon's NixOS Config";
+  description = "Lemon's Nix (Darwin) Config";
 
   inputs = {
 
