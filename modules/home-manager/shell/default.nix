@@ -27,6 +27,8 @@
     gch = "history | grep --color 'auto' 'git commit'";
   };
 
+  home.file.".hushlogin".text = '''';
+
   imports = [
     ./fish.nix
     ./zsh.nix
