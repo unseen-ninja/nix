@@ -22,6 +22,8 @@
     pnpm
     prismlauncher
     raycast
+    spicetify-cli
+    spotify
     starship
     telegram-desktop
     unixtools.ping

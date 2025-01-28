@@ -17,6 +17,7 @@
     "firefox"
     "forklift"
     "google-chrome"
+    "librewolf"
     "mediamate"
   ];
 
