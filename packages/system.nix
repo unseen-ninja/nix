@@ -37,6 +37,7 @@
   fonts.packages = with pkgs; [
     fira-code
     jost
+    league-gothic
     victor-mono
   ];
 
