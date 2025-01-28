@@ -4,6 +4,7 @@
     # System
     upgrade = "nix flake update --flake ~/.config/nix";
     rebuild = "darwin-rebuild switch --flake ~/.config/nix; exec $SHELL -l";
+    cleanup = "nix-collect-garbage -d --delete-older-than 7d";
     reload = "exec $SHELL -l";
 
     # General
