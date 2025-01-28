@@ -6,6 +6,7 @@
   # System Packages
   environment.systemPackages = with pkgs; [
     catppuccin-whiskers
+    deno
     ffmpeg-headless
     fish
     git
