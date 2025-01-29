@@ -1,0 +1,6 @@
+blocks:
+  - permission
+  - size
+  - name
+color:
+  theme: custom

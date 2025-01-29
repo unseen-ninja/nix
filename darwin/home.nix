@@ -22,8 +22,8 @@
   };
 
   imports = [
-    ../modules/home-manager/aerospace.nix
-    ../modules/home-manager/lsd.nix
+    ../modules/home-manager/aerospace
+    ../modules/home-manager/lsd
     ../modules/home-manager/git.nix
     ../modules/home-manager/kitty.nix
     ../modules/home-manager/pfetch.nix

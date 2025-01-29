@@ -31,7 +31,7 @@
   home.file.".hushlogin".text = '''';
 
   imports = [
-    ./fish.nix
+    ./fish
     ./zsh.nix
   ];
 
