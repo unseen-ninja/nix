@@ -7,11 +7,13 @@
 
 
   extensions = with pkgs.vscode-extensions; [
-    bbenoist.nix
     astro-build.astro-vscode
+    bbenoist.nix
     catppuccin.catppuccin-vsc
     catppuccin.catppuccin-vsc-icons
     eamodio.gitlens
+    editorconfig.editorconfig
+    vue.volar
   ];
 
 
