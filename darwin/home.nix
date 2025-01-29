@@ -23,6 +23,7 @@
 
   imports = [
     ../modules/home-manager/aerospace
+    ../modules/home-manager/bin.nix
     ../modules/home-manager/lsd
     ../modules/home-manager/git.nix
     ../modules/home-manager/kitty.nix
