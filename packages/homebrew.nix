@@ -19,6 +19,7 @@
     "google-chrome"
     "librewolf"
     "mediamate"
+    "zen-browser"
   ];
 
   # AppStore Apps
