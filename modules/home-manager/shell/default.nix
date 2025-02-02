@@ -26,6 +26,9 @@
     # GIT
     clone = "git clone $1";
     gch = "history | grep --color 'auto' 'git commit'";
+
+    # Fun
+    rain = "rainfall blue cyan green -i=4 -t=0.06"
   };
 
   home.file.".hushlogin".text = '''';

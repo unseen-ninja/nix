@@ -5,4 +5,9 @@
     executable = true;
   };
 
+  home.file.".local/bin/rainfall" = {
+    source = ../../bin/rainfall.py;
+    executable = true;
+  };
+
 }
