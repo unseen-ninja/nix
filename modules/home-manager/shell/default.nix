@@ -28,7 +28,7 @@
     gch = "history | grep --color 'auto' 'git commit'";
 
     # Fun
-    rain = "rainfall blue cyan green -i=4 -t=0.06"
+    rain = "rainfall blue cyan green -i=4 -t=0.06";
   };
 
   home.file.".hushlogin".text = '''';
