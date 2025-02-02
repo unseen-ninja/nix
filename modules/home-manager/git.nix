@@ -29,7 +29,7 @@
 
 
   home.file.".local/bin/commit" = {
-    source = ../../bin/commit;
+    source = ../../bin/commit.sh;
     executable = true;
   };
 

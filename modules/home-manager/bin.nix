@@ -1,7 +1,7 @@
 { ... }: {
 
   home.file.".local/bin/init" = {
-    source = ../../bin/init;
+    source = ../../bin/init.sh;
     executable = true;
   };
 
