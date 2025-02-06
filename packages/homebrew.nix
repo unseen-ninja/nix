@@ -19,6 +19,7 @@
     "google-chrome"
     "librewolf"
     "mediamate"
+    "teamviewer"
     "zen-browser"
   ];
 
