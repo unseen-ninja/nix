@@ -74,6 +74,7 @@ esc = 'mode main'
 # Layouts / Window Handling
 t = 'layout tiles horizontal vertical'
 a = 'layout accordion horizontal vertical'
+f = ['layout floating tiling', 'mode main']
 
 # Resize Row/Column
 left = 'resize smart -50'
