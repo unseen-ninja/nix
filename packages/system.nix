@@ -5,6 +5,7 @@
 
   # System Packages
   environment.systemPackages = with pkgs; [
+    blockbench
     catppuccin-whiskers
     deno
     ffmpeg-headless
