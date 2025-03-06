@@ -2,6 +2,7 @@
 
   # Standards
   programs.fish.enable = true;
+  home-manager.backupFileExtension = "backup";
 
   environment.shells = with pkgs; [
     fish
