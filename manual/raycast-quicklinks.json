@@ -1,0 +1,46 @@
+[
+  {
+    "name":"Search Google",
+    "link":"https:\/\/google.com\/search?q={argument}"
+  },
+  {
+    "name":"Search Google Images",
+    "link":"https:\/\/google.com\/search?q={argument}&udm=2"
+  },
+  {
+    "name":"Search DuckDuckGo",
+    "link":"https:\/\/duckduckgo.com\/?q={argument}"
+  },
+  {
+    "name":"Search Github",
+    "link":"https:\/\/github.com\/search?q={argument}"
+  },
+  {
+    "name":"Catppuccin Ports",
+    "link":"https:\/\/github.com\/orgs\/catppuccin\/repositories?q={argument name=\"Port\"}"
+  },
+  {
+    "name":"Catppuccin Userstyles",
+    "link":"https:\/\/github.com\/search?q=repo%3Acatppuccin%2Fuserstyles+path%3A%2F%5Estyles%5C%2F%2F+{argument name=\"Userstyle\"}&type=code"
+  },
+  {
+    "name":"Search Reddit",
+    "link":"https:\/\/www.reddit.com\/search\/?q={argument}"
+  },
+  {
+    "name":"Search Wikipedia",
+    "link":"https:\/\/wikipedia.org\/w\/index.php\/?search={argument}"
+  },
+  {
+    "name":"League of Graphs Champion",
+    "link":"https:\/\/www.leagueofgraphs.com\/champions\/builds\/{argument name=\"Champion\"}"
+  },
+  {
+    "name":"League of Graphs Summoner Profile",
+    "link":"https:\/\/www.leagueofgraphs.com\/search\/{argument name=\"Summoner ID\"}"
+  },
+  {
+    "name":"OP.gg Summoner Profile",
+    "link":"https:\/\/www.op.gg\/summoners\/search?q={argument name=\"Summoner ID\"}&region=euw"
+  }
+]
