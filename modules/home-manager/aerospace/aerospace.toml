@@ -83,9 +83,6 @@ right = 'resize smart +50'
 # Reset layout
 r = ['flatten-workspace-tree', 'mode main']
 
-# Toggle floating/tiling layout
-f = ['layout floating tiling', 'mode main']
-
 
 
 # Workspace Mode
