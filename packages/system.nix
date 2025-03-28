@@ -18,6 +18,7 @@
     lsd
     mcrcon
     mkalias
+    neovim
     obsidian
     tmux
     pfetch-rs
