@@ -4,6 +4,8 @@
   catppuccin = {
     enable = true;
     flavor = "frappe";
+
+    vscode.enable = false;
   };
 
   home = {
