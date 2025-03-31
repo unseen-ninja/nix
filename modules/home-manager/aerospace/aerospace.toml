@@ -80,6 +80,12 @@ f = ['layout floating tiling', 'mode main']
 left = 'resize smart -50'
 right = 'resize smart +50'
 
+# Join Windows
+cmd-ctrl-shift-h = ['join-with left', 'mode main']
+cmd-ctrl-shift-j = ['join-with down', 'mode main']
+cmd-ctrl-shift-k = ['join-with up', 'mode main']
+cmd-ctrl-shift-l = ['join-with right', 'mode main']
+
 # Reset layout
 r = ['flatten-workspace-tree', 'mode main']
 
@@ -99,6 +105,8 @@ r = ['flatten-workspace-tree', 'mode main']
 7 = ['workspace 7', 'mode main']
 8 = ['workspace 8', 'mode main']
 9 = ['workspace 9', 'mode main']
+w = ['workspace W', 'mode main']
+f = ['workspace F', 'mode main']
 
 # Move windows to workspaces
 shift-1 = ['move-node-to-workspace 1', 'mode main']
@@ -110,6 +118,8 @@ shift-6 = ['move-node-to-workspace 6', 'mode main']
 shift-7 = ['move-node-to-workspace 7', 'mode main']
 shift-8 = ['move-node-to-workspace 8', 'mode main']
 shift-9 = ['move-node-to-workspace 9', 'mode main']
+shift-w = ['move-node-to-workspace W', 'mode main']
+shift-o = ['move-node-to-workspace O', 'mode main']
 
 
 
@@ -149,6 +159,21 @@ n = ['exec-and-forget nightlight toggle', 'mode main']
 # Window Rules
 # ------------
 
+# Forklift (File Manager)
+[[on-window-detected]]
+if.app-id = 'com.binarynights.ForkLift'
+run = 'move-node-to-workspace F'
+
+# Arc (Browser)
+[[on-window-detected]]
+if.app-id = 'company.thebrowser.Browser'
+run = 'move-node-to-workspace W'
+
+# Obsidian
+[[on-window-detected]]
+if.app-id = 'md.obsidian'
+run = 'move-node-to-workspace 8'
+
 # Telegram
 [[on-window-detected]]
 if.app-id = 'com.tdesktop.Telegram'
@@ -158,3 +183,9 @@ run = 'move-node-to-workspace 9'
 [[on-window-detected]]
 if.app-id = 'dev.vencord.vesktop'
 run = 'move-node-to-workspace 9'
+
+# Bitwarden
+[[on-window-detected]]
+if.app-id = 'com.bitwarden.desktop'
+run = 'layout floating'
+
