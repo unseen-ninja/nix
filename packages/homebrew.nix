@@ -12,6 +12,7 @@
     "arc"
     "nikitabobko/tap/aerospace"
     "dteoh/sqa/slowquitapps"
+    "docker"
     "bitwarden"
     "espanso"
     "firefox"
@@ -19,6 +20,8 @@
     "google-chrome"
     "librewolf"
     "mediamate"
+    "nextcloud"
+    "syncthing"
     "teamviewer"
     "zen-browser"
   ];
