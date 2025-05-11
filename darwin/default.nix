@@ -36,7 +36,7 @@ in
         home-manager.users.${user} = {
           imports = [
             (import ./home.nix)
-            catppuccin.homeManagerModules.catppuccin
+            catppuccin.homeModules.catppuccin
           ];
         };
       }
