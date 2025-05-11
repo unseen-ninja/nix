@@ -24,7 +24,6 @@
     pfetch-rs
     pnpm
     prismlauncher
-    raycast
     spicetify-cli
     spotify
     starship

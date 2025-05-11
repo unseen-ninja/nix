@@ -3,6 +3,7 @@
   # Formulaes
   brews = [
     "bitwarden-cli" # the NIX version fails to build, hence this is installed here
+    "gh"
     "mas"
     "smudge/smudge/nightlight"
   ];
@@ -18,12 +19,16 @@
     "firefox"
     "forklift"
     "google-chrome"
+    "ghostty"
     "librewolf"
     "mediamate"
     "nextcloud"
+    "obs"
+    "raycast"
     "syncthing"
+    "tailscale"
     "teamviewer"
-    "zen-browser"
+    "zen"
   ];
 
   # AppStore Apps
@@ -31,6 +36,7 @@
     "Affinity Designer" = 1616831348;
     "Affinity Photo" = 1616822987;
     "Affinity Publisher" = 1606941598;
+    "Keymapp" = 6472865291;
     "Microsoft Excel" = 462058435;
     "Microsoft One-Drive" = 823766827;
     "Microsoft Powerpoint" = 462062816;
