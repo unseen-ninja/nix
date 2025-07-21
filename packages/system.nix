@@ -19,6 +19,7 @@
     mcrcon
     mkalias
     neovim
+    nodejs
     obsidian
     tmux
     pfetch-rs

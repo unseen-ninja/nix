@@ -13,7 +13,6 @@
     "arc"
     "nikitabobko/tap/aerospace"
     "dteoh/sqa/slowquitapps"
-    "docker"
     "bitwarden"
     "espanso"
     "firefox"
