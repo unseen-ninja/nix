@@ -23,6 +23,7 @@
     "librewolf"
     "mediamate"
     "nextcloud"
+    "nextcloud-talk"
     "obs"
     "raycast"
     "syncthing"

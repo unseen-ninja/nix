@@ -44,6 +44,11 @@
       "files.trimFinalNewlines" = true;
       "files.insertFinalNewline" = true;
       "diffEditor.ignoreTrimWhitespace" = false;
+
+      "files.associations" = {
+        "*.svg" = "default";
+      };
+
     };
 
 
