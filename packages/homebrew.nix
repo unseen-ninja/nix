@@ -12,8 +12,8 @@
   casks = [
     "arc"
     "nikitabobko/tap/aerospace"
-    "dteoh/sqa/slowquitapps"
     "bitwarden"
+    "discord"
     "espanso"
     "firefox"
     "forklift"
