@@ -24,6 +24,7 @@
     "nextcloud"
     "nextcloud-talk"
     "obs"
+    "orion"
     "raycast"
     "syncthing"
     "tailscale"
